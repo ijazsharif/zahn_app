@@ -1,4 +1,4 @@
 # Welcom To ZAHN Project
 
-Image Colorization is an AppLication i built using Flutter Framework and Image Colorization AI API provided by #deepai.org
+ZAHN is an image colorization appLication built using Flutter Framework and Image Colorization AI provided by #deepai.org
 
