@@ -1,0 +1,56 @@
+name: zahn_app
+description: A new Flutter project.
+
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.7.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  dio: ^4.0.0
+  line_icons: ^2.0.1
+  sizer: ^2.0.11
+  flutter_bloc: ^7.0.0
+  animate_do: ^2.0.0
+  flutter_carousel_slider: ^1.0.8
+  hive: ^2.0.4
+  flutter_particles: ^1.0.0+7
+  path_provider: ^2.0.1
+  path: ^1.8.0
+  flutter_svg: ^0.22.0
+  intl: ^0.17.0
+  image_downloader: ^0.30.0
+  toast: ^0.1.5
+  camera: ^0.8.1
+  image_picker: ^0.7.4
+  locally: ^1.0.5
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/images/
+    - assets/svg/
+
+  fonts:
+    - family: Mont
+      fonts:
+        - asset: assets/fonts/Montserrat-Bold.ttf
+          weight: 900
+        - asset: assets/fonts/Montserrat-Medium.ttf
+          weight: 700
+        - asset: assets/fonts/Montserrat-Regular.ttf
+          weight: 500
+        - asset: assets/fonts/Montserrat-Light.ttf
+          weight: 300
+
+  
