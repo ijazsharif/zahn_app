@@ -3,8 +3,12 @@
 
 
 
-
-
+<h3 align="left">Languages and Tools:</h3>
+<a href="https://flutter.dev" target="_blank"> Flutter Framework</a> 
+<br />
+<a href="https://deepai.org/machine-learning-model/colorizer" target="_blank"> Deepai API </a> 
+    
+    
 <h3 align="left">Connect With Us : </h3>
 <p align="left">
 <a href="https://twitter.com/tw_theamiri" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/twitter.svg" alt="tw_theamiri" height="10" width="40" /> App Developer : Amiri Abdelghafour</a>
