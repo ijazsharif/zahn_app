@@ -8,9 +8,8 @@ import 'myapp.dart';
 
 void main() async {
   WidgetsFlutterBinding.ensureInitialized();
-  SystemChrome.setSystemUIOverlayStyle(SystemUiOverlayStyle(
-    statusBarBrightness: Brightness.dark,
-  ));
+  SystemChrome.setSystemUIOverlayStyle(
+      SystemUiOverlayStyle(statusBarBrightness: Brightness.dark));
   Directory appDirectory =
       await pathProvider.getApplicationDocumentsDirectory();
   Hive.init(appDirectory.path);

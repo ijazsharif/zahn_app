@@ -9,7 +9,7 @@ class DescriptionText extends StatelessWidget {
       crossAxisAlignment: CrossAxisAlignment.start,
       children: [
         Text(
-          'ZAHN help your memories back by colorizing black and white family & historic photos',
+          'ZAHN help you bring old memories back to live by colorizing black and white family & historic photos',
           textAlign: TextAlign.start,
           style: Theme.of(context).textTheme.headline4.copyWith(
                 fontSize: 10.0.sp,

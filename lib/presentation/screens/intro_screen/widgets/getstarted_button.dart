@@ -29,10 +29,10 @@ class GetSatrtedBotton extends StatelessWidget {
             children: [
               Text(
                 "Get Started",
-                style: Theme.of(context).textTheme.headline2.copyWith(
-                      fontSize: 10.0.sp,
-                      letterSpacing: 2.0,
-                    ),
+                style: Theme.of(context)
+                    .textTheme
+                    .headline2
+                    .copyWith(fontSize: 10.0.sp, letterSpacing: 2.0),
               ),
               SizedBox(width: 4.0.w),
               Icon(

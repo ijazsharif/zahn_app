@@ -18,9 +18,7 @@ class _SplashScreenState extends State<SplashScreen> {
   @override
   void initState() {
     super.initState();
-    BlocProvider.of<AppBloc>(context).add(
-      RunStartupChecker(),
-    );
+    BlocProvider.of<AppBloc>(context).add(RunStartupChecker());
   }
 
   @override
