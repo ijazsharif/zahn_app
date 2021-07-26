@@ -12,15 +12,12 @@
 
 
 
-[Contribution guidelines for this project]()
-
-
 
 
 <h3 align="left">Languages and Tools:</h3>
 <a href="https://flutter.dev" target="_blank"> Flutter Framework</a> 
 <br />
-<a href="https://deepai.org/machine-learning-model/colorizer" target="_blank"> Deepai API </a> 
+<a href="https://deepai.org" target="_blank"> Deepai</a> 
     
     
 <h3 align="left">Connect With Us : </h3>
