@@ -18,6 +18,19 @@
     <li>Step 2 : <code>flutter pub get</code></li>
     <li>Step 3 : <code>flutter run</code></li>
 </ul>
+
+<hr>
+<h3 align="left">Project Structure :</h3>
+<small>ZAHN project uses bloc package as a state management, A predictable state management library that helps implement the BLoC <code>Business Logic Component</code> design pattern. so inside our <code>/lib</code> folder is seperated into 3 main sub-folders :
+<br /><br />
+<a href="https://github.com/theamiri/zahn_app/tree/main/lib/presentation" target="_blank"> Presentation Layer : </a> this layer is responsible for the application UI <code>themes, colors, screens, widgets, routes</code> it's main mission is to dispatch event mostly triggered by the user to the logic layer and adapt the ui based on states received.
+<br />
+<a href="https://github.com/theamiri/zahn_app/tree/main/lib/logic" target="_blank"> Logic Layer : </a> this layer play a role of man in the middle that prevent the ui from communicating directly with the data layer. instead this layer listen to event from the ui and run the function correspond inside data layer then return a state with the data required.
+<br />
+<a href="https://github.com/theamiri/zahn_app/tree/main/lib/data" target="_blank"> Data Layer : </a> this layer main focus is to perform network actions by getting and setting data to an external source and filter the data received to prevent malicious responses
+<br /><br />
+<img src="https://github.com/theamiri/zahn_app/blob/main/assets/prStructure.png" alt="project structure diagram">
+</small>
 <hr>
 <h3 align="left">Features :</h3>
 <table>
@@ -31,22 +44,6 @@
         <td>responsive UI</td>
     </tr>
 </table>
-
-<hr>
-<h3 align="left">Project Structure :</h3>
-<small>ZAHN project uses bloc package as a state management, A predictable state management library that helps implement the BLoC <code>Business Logic Component</code> design pattern. so inside our <code>/lib</code> folder is seperated into 3 main sub-folders :
-<br /><br />
-<a href="https://github.com/theamiri/zahn_app/tree/main/lib/presentation" target="_blank"> Presentation Layer : </a> this layer is responsible for the application UI <code>themes, colors, screens, widgets, routes</code> it's main mission is to dispatch event mostly triggered by the user to the logic layer and adapt the ui based on states received.
-<br />
-<a href="https://github.com/theamiri/zahn_app/tree/main/lib/logic" target="_blank"> Logic Layer : </a> this layer play a role of man in the middle that prevent the ui from communicating directly with the data layer. instead this layer listen to event from the ui and run the function correspond inside data layer then return a state with the data required.
-<br />
-<a href="https://github.com/theamiri/zahn_app/tree/main/lib/data" target="_blank"> Data Layer : </a> this layer main focus is to perform network actions by getting and setting data to an external source and filter the data received to prevent malicious responses
-<br /><br />
-<img src="https://github.com/theamiri/zahn_app/blob/main/assets/prStructure.png" alt="project structure diagram">
-
-
-</small>
-
  
 
 
