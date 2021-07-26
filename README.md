@@ -18,6 +18,24 @@
     <li>Step 2 : <code>flutter pub get</code></li>
     <li>Step 3 : <code>flutter run</code></li>
 </ul>
+<hr>
+<h3 align="left">Features :</h3>
+<table>
+    <tr>
+        <td>save files to device</td> 
+        <td>select image files from gallery</td>
+        <td>integrated camera view</td>
+        <td>api integration</td>
+    </tr>
+    <tr>
+        <td>responsive UI</td>
+    </tr>
+</table>
+
+<hr>
+<h3 align="left">Project Structure :</h3>
+<small>ZAHN project uses bloc package as a state management, A predictable state management library that helps implement the BLoC (Business Logic Component) design pattern. so inside our <code>/lib</code> folder is seperated into 4 main sub-folders :</small>
+<p stlye="color:blue"> Romuald <p>
 
 
 
