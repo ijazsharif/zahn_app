@@ -24,6 +24,10 @@ class _ColorizeImageScreenState extends State<ColorizeImageScreen> {
   Widget build(BuildContext context) {
     return Scaffold(
       body: BlocListener<ColorizationBloc, ColorizationState>(
+        listenWhen: (previous, current) =>
+            current is SuccessfullyColorizeImage ||
+            current is FailedToColorizeImage ||
+            current is Colorization,
         listener: (context, state) {
           if (state is Colorization) {
             _pageController.nextPage(
