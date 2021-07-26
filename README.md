@@ -21,7 +21,7 @@
 
 <hr>
 <h3 align="left">Project Structure :</h3>
-<small>ZAHN project uses bloc package as a state management, A predictable state management library that helps implement the BLoC <code>Business Logic Component</code> design pattern. so inside our <code>/lib</code> folder is seperated into 3 main sub-folders :
+<small>zahn project uses bloc package as a state management, A predictable state management library that helps implement the BLoC <code>Business Logic Component</code> design pattern. so inside our <code>/lib</code> folder is seperated into 3 main sub-folders :
 <br /><br />
 <a href="https://github.com/theamiri/zahn_app/tree/main/lib/presentation" target="_blank"> Presentation Layer : </a> this layer is responsible for the application UI <code>themes, colors, screens, widgets, routes</code> it's main mission is to dispatch event mostly triggered by the user to the logic layer and adapt the ui based on states received.
 <br />
@@ -44,6 +44,9 @@
         <td>responsive UI</td>
     </tr>
 </table>
+<hr>
+<h3 align="left">Licence & Copyright :</h3>
+<small>© the content of this project is licensed under the<a href="https://github.com/theamiri/zahn_app/blob/main/LICENSE.txt" target="_blank"> MIT license. </a> </small>
  
 
 
