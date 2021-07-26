@@ -41,7 +41,8 @@
 <a href="https://github.com/theamiri/zahn_app/tree/main/lib/logic" target="_blank"> Logic Layer : </a> this layer play a role of man in the middle that prevent the ui from communicating directly with the data layer. instead this layer listen to event from the ui and run the function correspond inside data layer then return a state with the data required.
 <br />
 <a href="https://github.com/theamiri/zahn_app/tree/main/lib/data" target="_blank"> Data Layer : </a> this layer main focus is to perform network actions by getting and setting data to an external source and filter the data received to prevent malicious responses
-
+<br /><br />
+<img src="https://github.com/theamiri/zahn_app/blob/main/assets/prStructure.png" alt="project structure diagram">
 
 
 </small>
