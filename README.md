@@ -1,6 +1,10 @@
 <h1  align="center">Z A H N</h1>
 <p align="center">zahn is an image colorization app built using Flutter and deepai AI to clorize old black and white photos in just in few seconds</p>
 
+<br />
+<img src="https://github.com/theamiri/zahn_app/blob/main/InShot_20210726_213958039.gif" width="1000"/>
+<br />
+
 <hr>  
 <h3 align="left">Requirement : </h3>
 <h6 align="left"> => before runing this project make sure you provide the following requirements</h6>
