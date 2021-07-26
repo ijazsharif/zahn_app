@@ -7,3 +7,5 @@ class ColorizePhoto extends ColorizationEvent {
   final File photo;
   ColorizePhoto({@required this.photo});
 }
+
+class GetColorizedPhotosList extends ColorizationEvent {}

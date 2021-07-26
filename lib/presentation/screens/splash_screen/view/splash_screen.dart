@@ -18,7 +18,9 @@ class _SplashScreenState extends State<SplashScreen> {
   @override
   void initState() {
     super.initState();
-    BlocProvider.of<AppBloc>(context).add(RunStartupChecker());
+    BlocProvider.of<AppBloc>(context).add(
+      RunStartupChecker(),
+    );
   }
 
   @override
@@ -52,7 +54,7 @@ class _SplashScreenState extends State<SplashScreen> {
               child: Center(
                 child: SvgPicture.asset(
                   'assets/svg/trian.svg',
-                  height: 60.0.sp,
+                  height: 100.0.sp,
                   color: ColorPalette.snowWhite.withOpacity(0.8),
                 ),
               ),

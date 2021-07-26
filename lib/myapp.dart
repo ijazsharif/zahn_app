@@ -12,9 +12,7 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MultiBlocProvider(
       providers: [
-        BlocProvider<AppBloc>(
-          create: (_) => AppBloc(),
-        ),
+        BlocProvider<AppBloc>(create: (_) => AppBloc()),
         BlocProvider<ColorizationBloc>(create: (_) => ColorizationBloc()),
       ],
       child: LayoutBuilder(

@@ -10,4 +10,11 @@ class SuccessfullyColorizeImage extends ColorizationState {
   SuccessfullyColorizeImage({@required this.imageUrl});
 }
 
+class SuccessfullyGetColorizedPhotosList extends ColorizationState {
+  final List<String> photos;
+  SuccessfullyGetColorizedPhotosList({@required this.photos});
+}
+
+class ColorizedPhotosListIsEmpty extends ColorizationState {}
+
 class FailedToColorizeImage extends ColorizationState {}

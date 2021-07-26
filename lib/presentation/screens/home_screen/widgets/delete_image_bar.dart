@@ -1,8 +1,10 @@
 import 'dart:ui';
 import 'package:flutter/material.dart';
+import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:line_icons/line_icons.dart';
 import 'package:sizer/sizer.dart';
 import 'package:zahn_app/core/helpers/database_helper.dart';
+import 'package:zahn_app/logic/colorization_bloc/colorization_bloc.dart';
 import 'package:zahn_app/presentation/common/color/app_colors.dart';
 import 'package:zahn_app/presentation/common/widgets/carre_button.dart';
 import 'package:zahn_app/presentation/common/widgets/toast_bar.dart';
@@ -41,8 +43,13 @@ showDeleteImageBar({
                 onTap: () {
                   dataBaseHelper.deleteColorizedPhoto(index: index);
                   showToastBar(
-                      ctx: context, message: 'Photo Deleted From Record');
-                  Navigator.pushNamed(context, 'home');
+                    ctx: context,
+                    message: 'Photo Deleted From Record',
+                  );
+                  Navigator.pop(context);
+                  BlocProvider.of<ColorizationBloc>(context).add(
+                    GetColorizedPhotosList(),
+                  );
                 },
               ),
             ],
