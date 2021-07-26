@@ -39,15 +39,21 @@ class _DownloadButtonState extends State<DownloadButton> {
               try {
                 String imageId = await ImageDownloader.downloadImage(
                   widget.imageUrl,
-                ).timeout(Duration(seconds: 60));
+                );
+
                 String path = await ImageDownloader.findPath(imageId);
                 _dataBaseHelper.saveColorizedPhoto(filePath: path);
                 showToastBar(
-                    ctx: context, message: 'Photo Saved To Your Gallery');
+                  ctx: context,
+                  message: 'Photo Saved To Your Gallery',
+                );
+
                 Navigator.pushNamed(context, 'home');
               } catch (_) {
                 showToastBar(
-                    ctx: context, message: 'Failed Save Photo to gallery');
+                  ctx: context,
+                  message: 'Failed Save Photo to gallery',
+                );
               }
               setState(() {
                 isLoading = false;
